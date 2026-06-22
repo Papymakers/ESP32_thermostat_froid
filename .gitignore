@@ -1,0 +1,10 @@
+# Identifiants réels — ne jamais committer
+include/config.h
+
+# PlatformIO
+.pio/
+.vscode/
+
+# Divers
+*.o
+.DS_Store

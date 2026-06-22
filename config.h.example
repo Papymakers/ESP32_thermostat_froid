@@ -1,0 +1,13 @@
+#pragma once
+
+// Copie ce fichier en "config.h" (même dossier) et renseigne tes propres valeurs.
+// config.h (sans .example) est ignoré par .gitignore — ne jamais committer tes identifiants réels.
+
+// --- WiFi ---
+#define WIFI_SSID     "TonSSID"
+#define WIFI_PASSWORD "TonMotDePasse"
+
+// --- MQTT ---
+#define MQTT_SERVER    "192.168.1.X"   // IP ou hostname du broker
+#define MQTT_PORT      1883
+#define MQTT_CLIENT_ID "CongelatorTh"
